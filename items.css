@@ -1,0 +1,50 @@
+.nob {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(208, 205, 162);
+    height: auto;
+    width: auto;
+    margin: 5px;
+    border: 2px solid black;
+
+}
+
+.box1 ul li {
+    margin-left: 20px;
+}
+
+.box1 img {
+    border-image-width: 100px;
+}
+
+.box1 img:hover {
+    width: 400px;
+    height: 300px;
+}
+
+.pos {
+    position: relative;
+    display: flex;
+}
+.ps2{
+    position: sticky;
+    display: flex;
+}
+
+button{
+    text-align: center;
+    color: rgb(224, 239, 13);
+    background-color: rgb(67, 63, 56);
+    margin-left: 100px;
+    border-radius: 5px;
+    padding: 3px;  
+}
+.car{
+    width: 330px;
+height: 220px;
+}

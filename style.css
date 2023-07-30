@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100&display=swap');
+
+:root {
+    --main-bg-color: rgb(57, 16, 16);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 250px;
+    ;
+}
+.pos{
+    background-color: var(--main-bg-color);
+}
+nav {
+
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    font-family: 'Roboto Slab', serif;
+    width: 100vmax;
+    height: 11vh;
+    background-color: var(--main-bg-color);
+
+}
+
+nav ul {
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+nav ul li a {
+    color: azure;
+    text-decoration: solid;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    font-family: 'Roboto Slab', serif;
+    height: 150px;
+    width: 100vmax;
+}
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(217, 217, 204);
+
+}
+
+.foot {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#adress {
+    color: antiquewhite;
+    margin-left: 50px;
+}
+#adress p{color: antiquewhite;
+text-decoration: underline;}
+#adress p:hover{
+    font-weight: bolder;
+}
+
+.nob {
+    min-height: calc(100vh);
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 16px 0 56px;
+    padding: 0 12px;
+}
+
+.search button {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin-left: -11px;
+}
+
+.ded ul li {
+    list-style: none;
+}
+
+.ded ul li a{
+    color: antiquewhite;
+    margin-left: 100px;
+    text-decoration: solid;
+}
+
+.ded ul li a:hover{
+    font-weight: 200;
+}

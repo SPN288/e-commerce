@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap');
+.btn{
+    margin-top: 23px;
+    padding: 6px 10px;
+    border-radius: 15px;
+    color: white;
+    background-color: green;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+     font-size: 15px;
+}
+
+.btn:hover{
+    background-color: white;
+    color: green;
+}
+.buttons{
+font-size: 40px;
+}
+
+.buttons{
+    margin: 32px;
+}
+
+.MoreAbout{
+    font-size: 26px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 23px;
+}
+
+
+.contactform{
+    padding: 0 32px;
+    padding-top: 144px;
+    font-family: 'Playfair Display', serif;
+    margin-left: 100px;
+}
+
+.contactform h1{
+    font-family: 'Source Sans Pro',sans-serif;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+.contactform form div{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check-input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+h1{
+    font-family: 'Source Sans Pro',sans-serif;
+    justify-content: center;
+
+}
